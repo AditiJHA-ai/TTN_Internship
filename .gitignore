@@ -1,0 +1,22 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+fastenv/
+
+# Node dependencies and build output
+node_modules/
+dist/
+build/
+
+# Accidental nested repo copy inside Week 3 project
+Week 3/FastAPI Demo/TTN_Internship/
+
+# Environment and editor files
+.env
+.vscode/
+.DS_Store
