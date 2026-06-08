@@ -133,7 +133,7 @@ print(f"Accuracy: {accuracy:.4f} ({accuracy*100:.2f}%)\n")
 print("Classification report:")
 print(classification_report(y_test, predictions, zero_division=0))
  
-#sPredict on custom sentences
+#Predict on custom sentences
 print("--- Custom predictions ---")
 custom_texts = [
     "NASA launched a new rocket to orbit the International Space Station.",

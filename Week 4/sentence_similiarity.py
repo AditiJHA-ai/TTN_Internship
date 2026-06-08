@@ -13,7 +13,7 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
 def build_embeddings(sentences: list[str]) -> np.ndarray:
     """Convert a list of sentences into TF-IDF embedding vectors."""
     vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2))
-    matrix = vectorizer.fit_transform(sentences)
+    matrix = vectorizer.fit_transform(sentences) 
     return matrix.toarray()
  
  
